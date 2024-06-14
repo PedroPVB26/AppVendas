@@ -1,2 +1,4 @@
 # AppVendas
-Aplicativo mobile para a gerência de vendas de uma equipe de vendedores
+### Aplicativo que tem como objetivo a gerência de vendas de um time de vendedores
+
+
