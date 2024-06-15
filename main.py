@@ -175,7 +175,7 @@ class MainApp(App):
             else:
                 self.equipe = self.equipe + f",{id_vendedor_adicionado}"
                 info =f'{{"equipe":"{self.equipe}"}}'
-                requests.patch(f"https://appvendashash-9c9fb-default-rtdb.firebaseio.com/{self.local_id}.json??auth={self.id_token}",
+                requests.patch(f"https://appvendashash-9c9fb-default-rtdb.firebaseio.com/{self.local_id}.json?auth={self.id_token}",
                                data=info)
                 mensagem_texto.text = "Vendedor adicionado com sucesso"
                 # Já adiciona este novo vendedor à página de acompanhar os vendedores
